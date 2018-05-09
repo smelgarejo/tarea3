@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ html, body { margin: 0; }
+
+.box {
+width: calc(50% - 10px);
+box-sizing: border-box;
+border: solid 1px white;	
+height: auto;
+padding: 5px;
+margin: 5px;
+display: inline;
+float: left;
+}
+.nombrepais { 
+	width: 60%;
+    margin: auto;
+}
+
+.espana {
+    width: 60%;
+    margin: auto;
+}
+
+.arabe {
+    width: 60%;
+    margin: auto;
+}
+.japon {
+    width: 60%;
+    margin: auto;
+}
+
+.espanarojo {
+	background-color: red;
+	height: 50px;
+}
+
+.espanaamarillo {
+	background-color: yellow;
+	height: 70px;
+}
+.dinamarca {
+    width: 60%;
+    margin: auto;
+}
+.dinamarcarojop {
+    background-color: red;
+    width: 25%;
+    height: 75px;
+    display: inline;
+    float: left;
+}
+.dinamarcablancop {
+    background-color: white;
+    width: 5%;
+    height: 75px;
+    display: inline;
+    float: left;
+}
+.dinamarcarojog {
+    background-color: red;
+    width: 70%;
+    height: 75px;
+    float: left;
+    display: inline;
+}
+.dinamarcablancog {
+    background-color: white;
+    width: 100%;
+    height: 20px;
+    display: inline;
+    float: left;
+}
+.araberojo {
+	background-color: red;
+    width: 30%;
+    height: 165px;
+    display: inline;
+    float: left;
+}
+.arabeverde {
+	background-color: green;
+    width: 70%;
+    height: 55px;
+    display: inline;
+    float: left;
+}
+.arabeblanco {
+	background-color: white;
+    width: 70%;
+    height: 55px;
+    display: inline;
+    float: left;
+}
+.arabenegro{
+	background-color: black;
+    width: 70%;
+    height: 55px;
+    display: inline;
+    float: left;
+}
+.japonblanco {
+    width: 100%;
+    height: 165px;
+    position: absolute;
+}
+
+.japonrojo {
+    width: 10%;
+    margin: 0 auto;
+    z-index: initial;
+    background-color: red;
+    border-radius: 50%;
+    height: 100px;
+    position: absolute;
+    text-align: center;
+}
+
+
+
+

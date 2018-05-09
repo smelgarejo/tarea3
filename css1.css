@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img {
+	margin: 0 auto;
+    display: block;
+}
+
+p {
+	text-align: left;
+}
+
+.box {
+width: calc(25% - 10px);
+box-sizing: border-box;
+border: solid 1px white;	
+height: auto;
+padding: 5px;
+margin: 5px;
+background-color: white;
+display: inline;
+float: left;
+}
+
+.fixed{
+	width: 100%;
+	position:fixed;
+	background-color: silver;
+	height: 50px;
+	top:0px;
+}
+
